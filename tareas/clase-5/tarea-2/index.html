@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5 - Tarea 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">¡Bienvenid@!</h1>
+    </header>
+
+    <main id="main">
+        <form id="form">
+            <label for="primer-nombre">Ingrese su primer nombre:</label>
+            <input id="primer-nombre" type="text" placeholder="Walter" required>
+
+            <label for="segundo-nombre">Ingrese su segundo nombre (opcional):</label>
+            <input id="segundo-nombre" type="text" placeholder="Hartwell">
+
+            <label for="apellido">Ingrese su apellido/s:</label>
+            <input id="apellido" type="text" placeholder="White" required>
+
+            <label for="edad">Ingrese su edad:</label>
+            <input id="edad" type="number" placeholder="52" required>
+
+            <div>
+                <button id="ingresar" type="submit">Ingresar</button>
+                <button id="reiniciar" type="reset">Reiniciar</button>
+            </div>
+        </form>
+
+        <div id="resultado">
+            <em id="datos-usuario"></em>
+        </div>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; 2024 | Pablo David</p>
+    </footer>
+
+    <script src="js/tarea-2.js"></script>
+</body>
+
+</html>
