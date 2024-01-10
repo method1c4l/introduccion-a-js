@@ -1,62 +1,67 @@
 # Machete de JavaScript
 
+
 ## JavaScript (o JS)
-Es una lengua de programación popular que se suele usar para crear efectos interactivos dentro de los navegadores web.
+Es un lenguaje de programación popular que se suele usar para crear efectos interactivos dentro de los navegadores web.
 
-## variable
-Es un espacio para almacenamiento de valores, puede almacenar cualquier tipo de informacion (tipos de datos): numeros, palabras, conjuntos de datos, etc.
+## Variable
+Es un espacio para el almacenamiento de valores. Puede almacenar cualquier tipo de informacion (tipos de datos): números, palabras, conjuntos de datos, etc.
 
-### undefined variable o variable no definida
-Es una variable que no tiene valor
+### 'undefined' variable o Variable no Definida
+Es una variable que no tiene valor.
 
-### declare o declarar una variable
-se crea como en el siguiente ejemplo:
+### 'null' variable o Variable Vacía
+Es una variable la cual se determinó que está vacía.
+
+### 'declare' o Declarar una Variable
+Se crea como en el siguiente ejemplo:
 ```
 let nombreVariable = valor;
 ```
-### initialize o inicializar una variable
-Asignar o darle un valor a una variable
 
-## tipos de variables
-### string o cadena de caracteres
-Se refiere a un conjunto de caracteres, palabra(s) o frases. Para inicializar una variable con una string o cadena de caracteres, hay que poner el mismo entre comillas dobles.
+### 'initialize' o Inicializar una Variable
+Asignar o darle un valor a una variable.
 
-### boolean o dato lógico
-Un boolean o tipo de dato logico representa un valor logico, True or False, Verdadero o Falso
 
-### array o vector
-Es una lista ordenada de valores, puede guardar diferentes tipos de datos
+## Tipos de Variables:
 
-### operator u operador
-Son operadores matematicos, por ej.: +, -, *, /, >, <, = etc.
+### 'string' o Cadena de Caracteres
+Se refiere a un conjunto de caracteres, palabra(s) o frases. Para inicializar una variable con un string o cadena de caracteres, hay que poner el mismo entre comillas dobles, o simples.
 
-## comments o comentarios
-Los comentarios son notas que se dejan para uno o para otra persona, es una nota que la computadora no va a leer. Se puede escribir un comentario en una linea nueva o en la misma linea que una linea de codigo de la siguiente forma:
- 
+### 'boolean' o Dato Lógico
+Un boolean o tipo de dato lógico representa un valor lógico, es decir, True (verdadero) or False (falso).
+
+### 'array' o 'vector'
+Es una lista ordenada de valores, puede guardar diferentes tipos de datos.
+
+### 'operator' u Operador
+Son operadores matematicos. Ejemplo: +, -, *, /, >, <, =, etc.
+
+## 'comments' o Comentarios
+Los comentarios son notas que se dejan para uno mismo o para otra persona, es una nota que la computadora no va a leer. Se puede escribir un comentario en una linea nueva o en la misma linea que una linea de codigo de la siguiente forma:
 ```
-let varibleNombre; //Soy tu comentario
+let nombreVariable; // Soy un comentario.
 ```
 
-Los comentarios que ocupan una sola linea comienzan con `//`, todo el espacio posterior al comentario en la misma linea va a estar afectado
+Los comentarios que ocupan una sola linea comienzan con `//`, todo el espacio posterior al comentario en la misma linea va a estar afectado.
 
-Los comentarios que ocupan varias lineas se escriben entre `/* .. */` y pueden terminar en cualquier lugar dentro de una linea
+Los comentarios que ocupan varias lineas se escriben entre `/* .. */`, y pueden terminar en cualquier lugar dentro del código.
 
-## function o funcion
-Es un bloque o fragmento de codigo reusable y separable (existe como una unidad funcional). Puede recibir un input o valor de entrada, realizar alguna operacion sobre ella o manipularla y devolver un output o valor de salida
+## 'function' o Función
+Es un bloque o fragmento de codigo reusable y separable (existe como una unidad funcional). Puede recibir un input o valor de entrada, realizar alguna operacion sobre ella, o manipularla, y devolver un output o valor de salida.
 
-### declare o declarar una funcion
-Crea una funcion
+### 'declare' o Declarar una Función
+Crear una función.
 
-### argument o argumento; parameter o parámetro.
-En un valor de entrada que las fuciones pueden aceptar
+### 'argument' o Argumento y 'parameter' o Parámetro.
+En un valor de entrada que las fuciones pueden aceptar.
 
-## if/else statement o sentencia condicional
+## 'if/else' statement o Sentencia Condicional
+`if` se usa para decidir si se ejecutan ciertas lineas de codigo, `else` da una lista de instrucciones alternativas.
 
-`if` se usa para decidir si se ejecutan ciertas lineas de codigo, `else` da una lista de instrucciones alternativas
-
-Ejemplo:
+Por ejemplo:
 ```
-if (x > 5) {
+if (x >= 5) {
     console.log("X es mayor a 5");
 }
 else {
@@ -64,39 +69,39 @@ else {
 }
 
 ```
-## Iterating/Loops o Iteraciones/Estructuras de control - Bucles
 
-### while loop o bucle while
-Repite el codigo hasta que se cumpla cierta condicion
+## 'iterating/ioops' o Iteraciones/Estructuras de Control - Bucles:
 
-### for loop o bucle for
-Es similar al ‘while loop’, pero tiene un numero especificado de repeticiones. Se declara un contador en la sentencia de la siguiente forma:
+### 'while loop' o Bucle While
+Repite el codigo hasta que se cumpla cierta condicion.
 
+### 'for loop' o Bucle For
+Es similar al 'while loop', pero tiene un numero especificado de repeticiones. Se declara un contador en la sentencia de la siguiente forma:
 ```
 for (let i = 0; i < 5; i++) {
-    //hacer algo 5 veces
+    // Hacer algo 5 veces.
 }
 ```
 
-### infinite loop o bucle infinito
-Esto es un error y causa un bucle indefinido
+### 'infinite loop' o Bucle Infinito
+Esto es un error y causa un bucle indefinido.
 
-Para evitar este error todo loop o bucle debe tener alguna condicion que le permita parar o salir del bucle y algo que permita que la condicion pueda cumplirse
+Para evitar este error todo loop o bucle debe tener alguna condicion que le permita parar o salir de dicho bucle, y algo que permita que la condicion pueda cumplirse.
 
-## object u objeto
+## 'object' u Objeto
 Se crea un tipo de objeto cuando un usuario interactua con una pagina web. Por ejemplo, JavaScript crea un evento cuando un usuario toca un boton.
  
 ## CSS
-Significa Cascading Style Sheets u Hoja de Estilos en Cascada. CSS permite describir como deben mostrarse los elementos HTML en pantalla. Seria la presentacion de dichos elementos.
+Significa 'Cascading Style Sheets' u Hoja de Estilos en Cascada. CSS permite describir como deben mostrarse los elementos HTML en pantalla. Seria la presentacion de dichos elementos.
  
 ## HTML
-Significa Hyper Text Markup Language o Lenguaje de Marcado de HiperTexto. Permite crear la estructura de los elementos en una pagina web.
+Significa 'Hyper Text Markup Language' o Lenguaje de Marcado de HiperTexto. Permite crear la estructura de los elementos en una pagina web.
  
 ## DOM 
-Significa Document Object Model o Modelo de Objetos para la Representación de Documentos. Define la estructura logica del documento y la forma en que se accede a este y se lo manipula.
+Significa 'Document Object Model' o Modelo de Objetos para la Representación de Documentos. Define la estructura logica del documento y la forma en que se accede a este y se lo manipula.
 
-## scope o alcance/ambito
+## 'scope' o Alcance/Ambito
 Scope se define como el conjunto de varibles, objetos y funciones al cual uno puede acceder.
 
-## console o consola
-Es una forma de interactuar con el sistema. Para escribirle a la consola del navegador, podria usarse console.log(‘Hello World’). Esto escribiria o mostraria Hello World en la consola del navegador.
+## 'console' o Consola
+Es una forma de interactuar con el sistema. Para escribirle a la consola del navegador, puede usarse `console.log(‘Hello World’)`. Esto escribiria o mostraria 'Hello World' en la consola del navegador.
